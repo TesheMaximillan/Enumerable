@@ -1,5 +1,5 @@
-Module MyEnumerable
-def all?
+module MyEnumerable
+  def all?
     each { |list| return false unless yield(list) }
     true
   end
